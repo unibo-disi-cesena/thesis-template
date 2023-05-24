@@ -118,12 +118,7 @@ Note: you may also detail the section titles to match the actual content, e.g.,
 5. Case study: Programming Swarms
 6. Related Work on CAS Engineering
 7. Conclusion and Future Work
-8. Bibliography/references1. Consegna dei capitoli
-    - Consegnare ogni capitolo una sola volta.
-    - Non è compito del relatore verificare lo stato della scrittura, lo studente invia i contenuti quando sono pronti (i.e., quando, secondo lo studente, i contenuti sono **finalizzati**)
-    - Prima della consegna
-        - **Fare un controllo della grammatica** ed eventuali errori di battitura (per tesi in inglese Grammarly è di grande aiuto)
-        - Mettere il capitolo "nel cassetto" 2-3 giorni e rileggerlo
+8. Bibliography/references
 
 Notice that sometimes, section "Related Work" might also fit at the end of your manuscript.
 
