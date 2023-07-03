@@ -1,0 +1,12 @@
+% \usepackage[disable]{todonotes} % decommentare prima della versione finale
+\usepackage{todonotes} % commentare prima della versione finale
+\usepackage{xcolor}
+\usepackage{xargs}
+
+% Syntax: \sidenote[Author][Color]{Note}
+\newcommandx{\sidenote}[3][1=\theauthor,2=green]{\todo[size=\tiny,color=#2]{\textbf{#1:} #3}}
+% Syntax: \note[Author][Color]{Note}
+\newcommandx{\note}[3][1=\theauthor,2=green]{\todo[size=\scriptsize,color=#2,inline]{\textbf{#1:} #3}}
+% in both cases, Author is optional and defaults to the thesis author, Color is optional and defaults to green
+
+\newcommand{\missingref}[1][something]{\sidenote{cite #1}}
