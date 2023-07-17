@@ -51,7 +51,7 @@ Some supervisors contributed to the document and provide the strategy they use h
 
 In any case,
 the supervisor is not there to verify the status of your work,
-so, typically, work is sent to the supervisor when its contents are considered **finalized**
+so, typically, work is sent to the supervisor when its contents are considered **finalized**.
 Moreover,
 the supervisor is not as spell checker:
 thoroughly check your document **before** sending it to the supervisor.
@@ -167,7 +167,7 @@ Notice that sometimes, section "Related Work" might also fit at the end of your 
     - If there is a need for words in languages other than the one in the document
     (e.g., Italian words in an English-written thesis, or English words in an Italian-written thesis),
     prefer wordings that maximize the usage of the document language.
-    For isntance, if the thesis is written in Italian,
+    For instance, if the thesis is written in Italian,
     "Mining di traiettorie" is preferable to "Trajectory mining"
 1. Citations
     - Follow [this guide](https://danysk.github.io/post/2020-05-08-bibliography/)
