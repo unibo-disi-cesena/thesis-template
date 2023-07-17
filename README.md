@@ -1,5 +1,13 @@
 # Bachelors' and Masters' Degree Theses: Guidelines
 
+### Using this repository
+
+Create your own copy of this repository through "Use this template".
+
+**Read this document in its entirety and ensure you understand it**.
+
+Then, read it again, and begin the challenging but beautiful and enriching journey called "thesis".
+
 ## Theses/Dissertations 101
 
 ### Planning a thesis
