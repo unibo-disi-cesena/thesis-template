@@ -179,6 +179,11 @@ Notice that sometimes, section "Related Work" might also fit at the end of your 
     "Mining di traiettorie" is preferable to "Trajectory mining"
 1. Citations
     - Follow [this guide](https://danysk.github.io/post/2020-05-08-bibliography/)
+    - TL; DR: 
+        1. use BibTeX
+        2. do not trust the BibTex entries you find online, check them
+        3. decent BibTex entries for computer science can be found on [DBLP](https://dblp.uni-trier.de/)
+        4. you may consider using [doi2bib](https://www.doi2bib.org/) to generate BibTex entries from DOIs
     - **Don't copy** long texts, summarize them
     - If something is quoted verbatim, make it explicit by using quotes:
         - Example: "Aggiungere inglesismi random non improva le vostre skills" [1](http://www.lercio.it/ricerca-aggiungere-inglesismi-random-non-improva-le-vostre-skills/)
@@ -230,8 +235,8 @@ Notice that sometimes, section "Related Work" might also fit at the end of your 
 ### How to use this template
 
 - Clone or (better) fork this repository
-- Open `thesis.tex` with a LaTeX editor (e.g., `Kyle` or `TeXMaker`)
-- Compile `thesis.tex` with `bibtex` and `pdflatex` to produce the PDF of your thesis
+- Open `thesis-main.tex` with a LaTeX editor (e.g., `Kyle`, `TeXMaker`, `TeX Studio`, or VS Code with the LaTeX extension)
+- Compile `thesis-main.tex` with `bibtex` and `pdflatex` to produce the PDF of your thesis
 - Start writing your thesis, and commit/push often
 
 ### Working with LaTeX
@@ -273,10 +278,14 @@ See these [video lectures by Ciatto](https://www.youtube.com/watch?v=ihxSUsJB_14
 
 ## More references
 
-See also the [thesis template by Ciatto](https://github.com/gciatto/phd-thesis).
+See also the [PhD thesis template by Ciatto](https://github.com/pikalab-unibo/phd-thesis-template).
 
-Infos on structuring phd theses:
+Infos on structuring PhD theses:
 
 1. http://www0.cs.ucl.ac.uk/staff/c.clack/phd.html
 2. http://people.kmi.open.ac.uk/stefan/thesis-writing.pdf
-    - 1) Introduction 2) Motivation 3) RW 4) Experiments 5) Conclusions
+    1. Introduction 
+    2. Motivation 
+    3. RW 
+    4. Experiments 
+    5. Conclusions
