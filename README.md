@@ -28,7 +28,7 @@ In each cycle (approx. 1 or 2 weeks):
 
 Suggestion: keep the **raw material** about your work under **version control** in a repository (e.g., on GitHub)
 
-- Use *distinct repositories*
+- Use *distinct repositories* (or orphan branches, if you know what you're doing)
     1. notes (e.g., on background, on literature reviews)
     2. experimental activities (e.g., to learn a new framework or library)
     3. the main development project or the research project artifacts
@@ -38,12 +38,27 @@ Suggestion: keep the **raw material** about your work under **version control** 
 
 #### Delivering your thesis work
 
-1. Consegna dei capitoli
-    - Consegnare ogni capitolo una sola volta.
-    - Non è compito del relatore verificare lo stato della scrittura, lo studente invia i contenuti quando sono pronti (i.e., quando, secondo lo studente, i contenuti sono **finalizzati**)
-    - Prima della consegna
-        - **Fare un controllo della grammatica** ed eventuali errori di battitura (per tesi in inglese Grammarly è di grande aiuto)
-        - Mettere il capitolo "nel cassetto" 2-3 giorni e rileggerlo
+Delivery of your work depends on the agreement you have with your supervisor.
+Some want to read chapters one by one as soon as they're ready,
+others prefer to correct the work when it is ready.
+
+Some supervisors contributed to the document and provide the strategy they use here:
+
+| Surname | Name | Strategy |
+| --- | --- | --- |
+| Francia | Matteo | Deliver each chapter separately, one chapter at a time. Each chapter can be delivered only *once* |
+| Pianini | Danilo | Deliver the index of contexts, namely, have all chapters and sections defined. Iterate over the structure as needed. Once the whole document is ready, send it. The whole work can be delivered only *once* |
+
+In any case,
+the supervisor is not there to verify the status of your work,
+so, typically, work is sent to the supervisor when its contents are considered **finalized**
+Moreover,
+the supervisor is not as spell checker:
+thoroughly check your document **before** sending it to the supervisor.
+If you are writing in English, a tool that we recommend is [Grammarly](README.md).
+Once you consider your thesis finished, a good approach (assuming there is enough time)
+is leaving the document alone for 2-3 days, then reading it from the beginning:
+a fresh look may provide better insights.
 
 ### On writing a thesis
 
@@ -59,7 +74,8 @@ Typical steps
     * If technical developments and experiments are needed, wait to have them done: this part of the thesis is a documentation of what you have achieved (i.e., the final system, the experimental results etc.).
 4. **Write Title, Introduction, Conclusion, and Abstract**
 
-Once you have written significant increments of your dissertation, consider **asking feedback to your supervisor**. Send your supervisor a PDF (possibly, a diff wrt the previous PDF you shared -- e.g., using tools like [Draftable](https://draftable.com/)).
+Once you have written significant increments of your dissertation, consider **asking feedback to your supervisor**.
+Send your supervisor a PDF (possibly, a diff wrt the previous PDF you shared -- e.g., using tools like [Draftable](https://draftable.com/)).
 
 #### Typical structure for theses
 
@@ -134,26 +150,28 @@ Notice that sometimes, section "Related Work" might also fit at the end of your 
 
 #### Writing: style and elements
 
-1. Contenuti
-    - La tesi non è un libro didattico: scrivere **solo** i contenuti funzionali all'attività di tesi.
-        - Esempio: se la tesi si colloca in ambito BI/OLAP e l'implementazione si basa su ROLAP, va bene citare anche MOLAP e HOLAP, ma è bene approfondire solo ROLAP. E' inutile e sbagliato copia-incollare capitoli di libri di testo come "Data Warehouse. Teoria e pratica della progettazione"
-    - **Non** copiare testo generato da bot/LLM/etc. La tesi dimostra la capacità dello studente di produrre un contributo scientifico. Essere in grado di organizzare e articolare i contenuti in modalità orale e scritta è importante e parte della valutazione
-    - **Non** copia-incollare codice nella tesi
-1. Linguaggio
-    - Evitare sempre commenti non oggettivi/superficiali/informali (o sono supportati da citazioni o non si mettono). Ad esempio: banale, semplice, facile, difficile, molto, troppo, poco, impossibile
-    - Concisione: Non scrivere frasi più lunghe di *due* righe
-        - Esempio No: L'idea di traiettoria si delinea nell'abilità di catturare gli spostamenti di un oggetto
-        - Esempio Sì: La definizione di traiettoria è: "testo quotato" [citazione]
-    - **Evitare** l'abuso di **grassetto** e *corsivo*
-1. Inglesismi
-    - Se le tesi è in italiano è bene scrivere in italiano e limitare l'uso dell'inglese il più possibile (e.g., "Trajectory Mining" -> "Mining di traiettorie")
-        - Ovviamente non tutto può essere tradotto in italiano (e.g., clustering, mining, deploy, etc.)
-    - Usare un termine inglese se questo si ripete ma spiegalo una sola volta.
-    - Un acronimo in inglese rimane in inglese: GPS (Global Positioning System) e non si usa il plurale
-    - La prima volta in assoluto che il termine compare scrivilo in corsivo. Esempio "I *layer* (livelli) di un GIS (*Geographic Information System*)"
-1. Struttura
-    - Convenzione nomi
-        - Titolo: 
+1. Contents
+    - A thesis is not a textbook: write **solely** contents concerning the activities.
+        - For instance: if the thesis concerns BI/OLAP and the implementation is ROLAP-based, it is fine to mention MOLAP and HOLAP for a quick comparison, but only ROLAP should be discussed in-depth.
+    - It is worthless and ethically questionable copying and pasting text from books.
+    - **Do NOT** use text generated by bots, large language models, and similar tools. Theses are meant to provide evidence that the student can produce a scientific contribution, the capability organize contents in written and oral form is relevant and part of the evaluation.
+    - Avoid long code snippets
+1. Language
+    - Avoid whenever possible subjective, superficial, and informal comments that are not supported by a citation to a paper or very clear evidence. Example adjectives that should be avoided without citation or evidence: trivial, simple, easy, hard, very, too much, little, short, long, impossible, optimal.
+    - Be concise!
+        - *bad*: the idea of trajectory lies into the ability to capture subsequent moves of an object
+        - *good*: a *trajectory* can be formally defined as "quoted text" [citation to a paper]
+        - Do not abuse **boldface** and *italic*
+        - Use `monospace` for code
+1. Words in other languages
+    - If there is a need for words in languages other than the one in the document
+    (e.g., Italian words in an English-written thesis, or English words in an Italian-written thesis),
+    prefer wordings that maximize the usage of the document language.
+    For isntance, if the thesis is written in Italian,
+    "Mining di traiettorie" is preferable to "Trajectory mining"
+1. Structure
+    - Name convention
+        - Titles: 
             - Prima lettera maiuscola in tutti i nomi, pronomi, aggettivi, verbi, avverbi
             - Tutto maiuscolo acronimi
             - In minuscolo articoli e congiunzioni 
