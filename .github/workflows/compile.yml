@@ -1,38 +1,25 @@
 name: Build LaTeX and deploy on GitHub Releases
 on:
   push:
-  schedule:
-    - cron: '0 0 1 * *'
+    tags: '*'
+    branches-ignore:
+      - 'autodelivery**'
+      - 'bump-**'
+      - 'renovate/**'
+    paths-ignore:
+      - 'README.md'
+      - 'CHANGELOG.md'
+      - 'LICENSE'
+      - 'renovate.json'
+  pull_request:
+  workflow_dispatch:
 
 jobs:
-  Build-LaTeX:
-    runs-on: ubuntu-20.04
+  setup-compile-deploy:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
     steps:
-      - name: Make ImageMagik permissive
-        run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
-      # Checkout the repository
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: DanySK/compile-and-publish-all-latex@1.0.49
         with:
-          fetch-depth: 0
-      - name: Fetch tags
-        shell: bash
-        run: git fetch --tags -f
-      - name: Install TeXLive
-        uses: DanySK/setup-texlive-action@master
-      - name: Compile LaTeX
-        uses: DanySK/compile-latex-action@master
-      - name: Autotag
-        uses: DanySK/semver-autotag-action@master
-      - name: Deploy
-        if: ${{ startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/master' }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          TAG=$(git describe --tags --exact-match HEAD)
-          hub release create -m "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
-          while IFS= read -r file; do
-            pdf="${file%.*}.pdf"
-            echo "Delivering file $pdf"
-            gh release upload "$TAG" "$pdf" --clobber
-          done <"success-list"
+          token: ${{ secrets.GITHUB_TOKEN }}
