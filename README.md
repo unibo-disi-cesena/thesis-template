@@ -169,39 +169,28 @@ Notice that sometimes, section "Related Work" might also fit at the end of your 
     prefer wordings that maximize the usage of the document language.
     For isntance, if the thesis is written in Italian,
     "Mining di traiettorie" is preferable to "Trajectory mining"
-1. Structure
-    - Name convention
-        - Titles: 
-            - Prima lettera maiuscola in tutti i nomi, pronomi, aggettivi, verbi, avverbi
-            - Tutto maiuscolo acronimi
-            - In minuscolo articoli e congiunzioni 
-        - Sezioni: tutto minuscolo eccetto la prima lettera e acronimi (e.g., "Questa è una sessione OLAP")
-    - Abstract (sommario): singolo paragrafo tra 150 e 250 parole
-    - Usare il package `cleveref` e `\Cref{}` (e non `\ref{}`) di Latex per fare riferimento a label di capitoli/sezioni/sottosezioni/immagini
-    - Quando si descrive un argomento è bene averlo già introdotto. Se non indispensabili, evitare le *forword reference* (riferimento a capitoli/sezioni/sottosezioni che appaiono dopo essere referenziati)
-    - Non creare sezioni con singola sottosezione
-    - Non creare (sotto)sezioni lunghe meno di una pagina
-    - Evitare di disperdere le informazioni: definizione, dettagli e implicazioni stanno nello stesso paragrafo
-    - Esiste differenza tra `.` e `. a capo`: `. a capo` si usa per cambiare discorso
-1. Citazioni e copia/incolla
-    - Non citare Wikipedia (su https://scholar.google.it/ esiste un oceano di letteratura scientifica a [revisione paritaria](https://it.wikipedia.org/wiki/Revisione_paritaria)
-        - Se necessario, sfruttare Wikipedia per trovare le citazioni a paper/libri
-    - **Non copiare** testi lunghi, è meglio riassumerli ed elaborarli
-    - **Non copiare** traduzioni lunghe, è meglio riassumerle ed elaborarle
-    - Esplicitare la parte di testo copiata inserendola tra virgolette e aggiungi la citazione finale
-        - Esempio: "Aggiungere inglesismi random non improva le vostre skills" [[Questa è una cit]](http://www.lercio.it/ricerca-aggiungere-inglesismi-random-non-improva-le-vostre-skills/)
-    - La citazione precede il `.`: Testo citato [citazione]. (e non: Testo citato. [citazione])
-1. Figure:
-    - Se una figura è copiata/rielaborata indicare la sorgente con apposita citazione
-    - Utilizzare figure in formato vettoriale (e.g., .pdf, .svg) e non raster (e.g., .png, .jpg)
-    - In caso di screenshot, attenzione alle dimensioni (in MB) della figura
-1. Punteggiatura, elenchi (e coerenza)
-    - No punti nei titoli
-    - Non `E'` ma `È` (È = Alt + 0200)  
-    - In Latex, le virgolette si fanno \`\`così'' (\` = Alt + 96) e non "così"
-    - Elenchi puntati iniziano con Maiuscola, finiscono con `;` o con `.` (l'importante è usare la stessa convenzione). Di solito si usa `;` per terminare frasi di senso non compiuto, e `.` per terminare frasi di senso compiuto
-    - No `...`, sì "etc." 
-1. Link di riferimento per elaborato tesi https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche/volume-pdf-e-deposito-online-dellelaborato
+1. Citations
+    - Follow [this guide](https://danysk.github.io/post/2020-05-08-bibliography/)
+    - **Don't copy** long texts, summarize them
+    - If something is quoted verbatim, make it explicit by using quotes:
+        - Example: "Aggiungere inglesismi random non improva le vostre skills" [1](http://www.lercio.it/ricerca-aggiungere-inglesismi-random-non-improva-le-vostre-skills/)
+1. Figures:
+    - Figures taken from another source (or is a derived work of another source)
+    the source must be cited
+    - Prefer *vectorial* images (SVG, PDF, EPS...) over *raster* (PNG, JPEG, Bitmaps)
+        - Note: including a raster image into a vectorial format supporting embedding is *useless*
+1. Punctuation, lists, coherence
+    - Titles should not have full stops
+    - Watch your accents: don't write apostrophes in place of accents: `E'` is not the same of `È`.
+    On <i class="fa-brands fa-linux"></i>, with a layout supporting `è` (e.g., Italian) use <kbd>CAPS LOCK</kbd>+<kbd>è</kbd>.
+    On <i class="fa-brands fa-windows"></i>, use <kbd>alt</kbd> followed by <kbd>0200</kbd> 
+    - In LaTeX, quotes are done by opening with double backticks and closing with double single quotes \`\`like this''.
+    Do not use double quotes ("like this").
+    Backticks are made on <i class="fa-brands fa-linux"></i> with <kbd>alt gr</kbd>+<kbd>'</kbd> with the Italian keyboard layout;
+    on <i class="fa-brands fa-windows"></i>, <kbd>alt</kbd> followed by <kbd>96</kbd>
+    - Bullet points end in `;` or `.`, depending on whether they are part of the same sentence or not.
+    The initial letter in a bullet point must be capitalized if the previous bullet point terminates with `.`.
+1. [Reference guide for Computer Science and Engineering at UniBo](https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche/volume-pdf-e-deposito-online-dellelaborato)
 
 #### Writing: DOs and DONTs
 
