@@ -24,6 +24,7 @@ Plan your thesis (possibly, talking with *potential supervisors*):
     3. **subject** (for report-oriented theses)
 3. Try to devise a **plan**, e.g.,
     * in terms of **mandatory goals** and **optional goals**
+4. Devise a tentive **title** summarizing the whole content and pinpointing the direction of the thesis
 
 ### Executing thesis work
 
