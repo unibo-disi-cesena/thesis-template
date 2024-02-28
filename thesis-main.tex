@@ -37,10 +37,6 @@ Max 2000 characters, strict.
 Optional. Max a few lines.
 \end{dedication}
 
-\begin{acknowledgements} % this is optional
-Optional. Max 1 page.
-\end{acknowledgements}
-
 %----------------------------------------------------------------------------------------
 \tableofcontents   
 \listoffigures     % (optional) comment if empty
@@ -101,9 +97,13 @@ You may also put some code snippet (which is NOT float by default), eg: \cref{ls
 
 \backmatter
 
-\nocite{*} % comment this to only show the referenced entries from the .bib file
+\nocite{*} % Remove this as soon as you have the first citation
 
 \bibliographystyle{alpha}
 \bibliography{bibliography}
+
+\begin{acknowledgements} % this is optional
+Optional. Max 1 page.
+\end{acknowledgements}
 
 \end{document}
