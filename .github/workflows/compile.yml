@@ -20,6 +20,6 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: DanySK/compile-and-publish-all-latex@2.0.61
+      - uses: DanySK/compile-and-publish-all-latex@2.0.62
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
