@@ -2,18 +2,19 @@
 
 Per la discussione finale, consiglio di progettare il discorso e le slide tenendo conto dei seguenti principi.
 
-## 1. Gestione del tempo
+## Gestione del tempo
 
 - Informatevi sulla durata della sessione e sul numero di laureandi.
 - Considerate circa il **75% del tempo per la presentazione** e il restante **25% per eventuali domande**.
-- In assenza di indicazioni diverse, assumete **15 minuti di presentazione + 5 minuti di domande**.
+- In assenza di indicazioni diverse, a seconda che siate triennali/magistrali, assumete **8/12 minuti di presentazione + 3/5 minuti di domande**.
 - Restate rigorosamente nei tempi: sforare è uno degli aspetti che le commissioni apprezzano meno.
+- Se avete fatto molto lavoro, non dovete presentare *tutto* al costo di parlare velocemente o risultare caotici. Scegliete con cura cosa non presentare, dovete massimizzare la comprensione della commissione in quegli 8/12 minuti.
 
-## 2. Numero di slide
+## Numero di slide
 
 - Come regola pratica, prevedete **circa una slide per ogni minuto di presentazione**.
+- Non serve avere un indice dei contenuti, la commissione sa come sono strutturate le presentazioni.
 - Per una presentazione di 15 minuti, puntate a circa **15 slide**, escluso il frontespizio.
-- Meglio una slide in più da saltare all'occorrenza che una presentazione troppo densa.
 
 ## 3. Struttura consigliata
 
@@ -28,7 +29,7 @@ La presentazione dovrebbe seguire grossomodo la struttura della tesi:
 4. Risultati principali
 5. Conclusioni e sviluppi futuri
 6. \[Opzionale] Bibliografia
-7. NON finire con "Domande?" — la commissione farà domande comunque.
+7. NON finire con "Domande?" — la commissione farà domande comunque. Non finire nemmeno con "Grazie per l'attenzione", o con "questo è tutto". Va bene fermarsi sulle conclusioni e sviluppi futuri, e dire oralmente "Sono disponibile a ulteriori spiegazioni o a rispondere a  domande".
 
 Dedicate particolare attenzione agli **obiettivi** e alla **metodologia**: sono spesso le parti che permettono alla commissione di capire meglio il contributo e il livello di comprensione del lavoro svolto.
 
@@ -53,13 +54,13 @@ Dedicate particolare attenzione agli **obiettivi** e alla **metodologia**: sono 
 
 ## 5. Come parlare durante la discussione
 
-- Evitate il "noi" quando possibile.
+- Evitate il "noi" quando possibile. La forma migliore è l'impersonale.
 - Preferite:
+  - "si è proceduto..."
+  - "è stato realizzato..."
   - "ho sviluppato..."
   - "ho analizzato..."
   - "ho progettato..."
-  - "si è proceduto..."
-  - "è stato realizzato..."
 - Siate chiari nel distinguere ciò che avete fatto personalmente da ciò che proviene dalla letteratura o da lavori precedenti.
 
 ## 6. Presentare i risultati
@@ -77,6 +78,13 @@ Prima della discussione:
 - Cronometratevi.
 - Se possibile, registratevi e riascoltatevi.
 - Verificate che i tempi siano rispettati senza dover correre nelle ultime slide.
+- Preparate con cura l'inizio della presentazione e la sua conclusione. Partire bene vi darà la confidenza per fare un buon discorso.
+
+**Nota:** come fare una buona presentazione cambia molto da persona a persona.
+C'è chi beneficia di molteplici prove, e chi, se prova troppe volte,
+finisce con il produrre discorsi che suonano letti o mal recitati.
+Cercate di capire dove stia il vostro equilibrio.
+Fanno eccezione inizio e fine, avere molto chiaro come partire "lancia" la presentazione, e la chiusura consente di lasciare la commissione sopra la soglia d'attenzione.
 
 ## Errori frequenti da evitare
 
