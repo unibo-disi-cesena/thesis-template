@@ -1,186 +1,119 @@
-# Thesis Defense Presentation Guidelines
+Here is the English translation:
 
-The final presentation should be designed to communicate the motivation, contribution, and results of your work clearly and efficiently within the allocated time.
+# Guidelines for the Graduation Presentation
 
-## 1. Time Management
+For the final discussion, I recommend designing the speech and the slides according to the following principles.
 
-- Find out how long the graduation session is and how many candidates will present.
-- As a rule of thumb, allocate approximately **75% of the available time to the presentation** and leave the remaining **25% for questions**.
-- Unless instructed otherwise, assume **15 minutes for the presentation and 5 minutes for questions**.
-- Stay within the allotted time. Exceeding it is one of the most common and least appreciated mistakes during thesis defenses.
+## Time management
 
-## 2. Number of Slides
+* Find out the duration of the session and the number of graduating students.
+* Allocate about **75% of the time to the presentation** and the remaining **25% to possible questions**.
+* Unless otherwise specified, depending on whether you are in a bachelor's or master's degree programme, assume **8/12 minutes for the presentation + 3/5 minutes for questions**.
+* Stay strictly within the time limit: exceeding the allotted time is one of the things committees appreciate the least.
+* If you have done a lot of work, you do not need to present *everything* at the cost of speaking too quickly or sounding chaotic. Choose carefully what not to present: your goal is to maximize the committee’s understanding within those 8/12 minutes.
 
-- Plan for approximately **one slide per minute of presentation**.
-- For a 15-minute presentation, a good target is **about 15 slides**, excluding the title slide.
-- It is better to prepare one or two backup slides that can be skipped if necessary than to overload each slide with information.
+## Number of slides
 
-## 3. Recommended Structure
+* As a rule of thumb, plan for **about one slide per minute of presentation**.
+* A table of contents is not necessary: the committee already knows how presentations are structured.
+* For a 15-minute presentation, aim for about **15 slides**, excluding the title slide.
 
-### 0. Title Slide
+## 3. Recommended structure
 
-Include:
+The presentation should broadly follow the structure of the thesis:
 
-- Thesis title
-- Candidate name
-- Supervisor(s)
-- Co-supervisor(s), if any
+0. Title slide: thesis title, candidate, supervisor, co-supervisors
 
-Additionally:
+* indicate whether the thesis was carried out in collaboration with a company
+* indicate whether there is an associated publication
 
-- Clearly indicate whether the thesis was carried out **in collaboration with a company**.
-- Mention any **associated scientific publication**, if applicable.
+1. Motivation and context
+2. Objectives of the work
+3. Methodology adopted
+4. Main results
+5. Conclusions and future developments
+6. [Optional] Bibliography
+7. Do NOT end with “Questions?” — the committee will ask questions anyway. Do not end with “Thank you for your attention” either, or with “That’s all.” It is fine to stop on the conclusions and future developments slide and say orally: “I am available to provide further explanations or answer any questions.”
 
-### 1. Motivation and Context
+Pay particular attention to the **objectives** and the **methodology**: these are often the sections that best allow the committee to understand the contribution and the level of understanding of the work carried out.
 
-Explain:
+## 4. How to build the slides
 
-- Why the problem is worth studying.
-- Why it matters in practice, research, or industry.
-- The broader context in which the work is positioned.
+### Little text
 
-### 2. Goals and Objectives
+* Avoid walls of text.
+* Use at most 4–5 bullet points per slide.
+* Each bullet point should ideally take up only one line, rarely two.
+* Prefer keywords and essential concepts.
 
-Clearly state:
+### Strong visual communication
 
-- The problem you aimed to solve.
-- The research questions or objectives.
-- The expected contributions of the work.
+* Use images, diagrams, charts, and tables whenever they help understanding.
+* Not every piece of information needs to be written down: many things can be explained orally.
 
-### 3. Methodology
+### Highlight important information
 
-Describe:
+* Use bold text, colours, or other graphic devices to make keywords stand out.
+* Make sure that an observer can quickly understand the main message of each slide.
 
-- The approach that was adopted.
-- The tools, frameworks, datasets, or technologies involved.
-- The rationale behind the chosen methods.
+## 5. How to speak during the discussion
 
-This is often one of the most important sections: the committee wants to understand *how* the work was conducted and whether the candidate understands the adopted approach.
+* Avoid “we” whenever possible. The best form is impersonal language.
+* Prefer:
 
-### 4. Main Results
+  * “the process was carried out...”
+  * “it was implemented...”
+  * “I developed...”
+  * “I analysed...”
+  * “I designed...”
+* Be clear in distinguishing what you did personally from what comes from the literature or from previous work.
 
-Present:
+## 6. Presenting the results
 
-- The most relevant findings.
-- Quantitative and qualitative outcomes.
-- Comparisons, evaluations, or lessons learned.
+* Do not try to show every single experimental detail.
+* Present the most important results and their significance.
+* Focus on the conclusions that can be drawn from the results, not on the numbers themselves.
+* If there are technically interesting but non-essential details, leave them for possible questions from the committee.
 
-Focus on the meaning of the results rather than listing every detail of the experiments.
+## 7. Rehearsals
 
-### 5. Conclusions and Future Work
+Before the discussion:
 
-Summarize:
+* Rehearse the speech at least once from beginning to end.
+* Time yourself.
+* If possible, record yourself and listen back.
+* Check that the timing is respected without having to rush through the final slides.
+* Prepare the beginning and the conclusion of the presentation carefully. Starting well will give you the confidence to deliver a good talk.
 
-- What was achieved.
-- What was learned.
-- The limitations of the work.
-- Possible future developments and research directions.
+**Note:** what makes a good presentation varies greatly from person to person.
+Some people benefit from multiple rehearsals, while others, if they rehearse too many times,
+end up producing speeches that sound read aloud or poorly acted.
+Try to understand where your own balance lies.
+The beginning and the end are exceptions: having a very clear opening helps “launch” the presentation, and the closing allows you to leave the committee above the attention threshold.
 
-### 6. [Optional] References
+## Common mistakes to avoid
 
-Include this slide only if:
+* Too many slides.
+* Too much text.
+* Fonts that are too small.
+* Results shown without explaining their meaning.
+* Presentation exceeding the allotted time.
+* Reading the slides word for word.
+* Excessive use of “we”.
+* Slides that take more than a few seconds to understand.
+* Illegible tables or overly dense charts.
+* Including implementation details that are irrelevant to the objectives of the thesis.
 
-- Key references are actively discussed during the presentation.
-- The committee may benefit from seeing the most relevant literature.
+## Golden rule
 
-Otherwise, references may be omitted to save time.
+The committee does not want to read the thesis a second time: it wants to understand, in just a few minutes,
 
-### 7. Final Slide
+1. what the problem was;
+2. why it was interesting;
+3. how it was addressed;
+4. what results were obtained;
+5. what you learned by carrying out the work.
 
-Do **not** end with:
+If these five points are clear by the end of the presentation, the discussion has achieved its purpose.
 
-> Questions?
-
-The committee will ask questions anyway.
-
-Instead, simply conclude with your final remarks, acknowledgments (if appropriate), or a concise summary of the take-home messages.
-
-## 4. Slide Design
-
-### Keep Text to a Minimum
-
-- Avoid large blocks of text.
-- Aim for no more than 4–5 bullet points per slide.
-- Prefer keywords and short sentences over full paragraphs.
-- Slides should support the presentation, not replace it.
-
-### Use Visual Communication
-
-Whenever possible, prefer:
-
-- Diagrams
-- Figures
-- Charts
-- Tables
-- Schematics
-
-A good figure plus a clear oral explanation is usually more effective than a text-heavy slide.
-
-### Highlight Key Information
-
-Use:
-
-- **Bold text**
-- Colors
-- Visual emphasis
-
-to draw attention to the most important concepts.
-
-## 5. Presentation Style
-
-- Avoid simply reading the slides.
-- Speak clearly and at a moderate pace.
-- Distinguish between:
-  - what was done personally;
-  - what comes from previous work or the literature.
-
-Prefer expressions such as:
-
-- "I developed..."
-- "I implemented..."
-- "I evaluated..."
-- "The proposed approach..."
-- "The system was designed to..."
-
-## 6. Presenting Results
-
-- Do not attempt to show every experiment, parameter, or implementation detail.
-- Emphasize the findings that support your conclusions.
-- Explain why the results matter.
-- Leave secondary details for possible questions from the committee.
-
-## 7. Rehearsal
-
-Before the defense:
-
-- Rehearse the presentation from beginning to end.
-- Measure the actual duration.
-- If possible, record yourself.
-- Verify that transitions between slides are smooth.
-- Ensure that you can complete the presentation comfortably within the allotted time.
-
-## Common Mistakes to Avoid
-
-- Too many slides.
-- Too much text.
-- Small fonts.
-- Overly dense tables and charts.
-- Spending too much time on background information.
-- Focusing on implementation details instead of contributions.
-- Presenting results without explaining their significance.
-- Running out of time before the conclusions.
-- Reading directly from the slides.
-
-## Golden Rule
-
-The committee does **not** want to hear the entire thesis again.
-
-By the end of the presentation, the audience should clearly understand:
-
-1. What problem was addressed.
-2. Why it was worth addressing.
-3. How it was tackled.
-4. What results were obtained.
-5. What conclusions can be drawn from the work.
-
-If these five points are clear, the presentation has achieved its purpose.
+I can also produce a version with more natural academic English rather than a close translation.
